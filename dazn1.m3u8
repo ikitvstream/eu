@@ -1,0 +1,29 @@
+#EXTM3U
+#EXT-X-VERSION:4
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-ALLOW-CACHE:YES
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+# iKiTV DAZN ESP FWC
+# 480p (Koneksi Seluler Standar)
+#EXT-X-STREAM-INF:BANDWIDTH=1400000,AVERAGE-BANDWIDTH=1000000,RESOLUTION=854x480,FRAME-RATE=30.000,CODECS="avc1.4d401f,mp4a.40.2"
+http://me.mdmfista.com/play/live.php?mac=00:1A:79:18:15:1D&stream=1745214&extension=m3u8
+
+# --- HIGH DEFINITION (HD) ---
+# 720p (HD Biasa)
+#EXT-X-STREAM-INF:BANDWIDTH=2800000,AVERAGE-BANDWIDTH=2000000,RESOLUTION=1280x720,FRAME-RATE=30.000,CODECS="avc1.64001f,mp4a.40.2"
+http://me.mdmfista.com/play/live.php?mac=00:1A:79:18:15:1D&stream=1745213&extension=m3u8
+
+# 1080p (Full HD - Standar Streaming Modern)
+#EXT-X-STREAM-INF:BANDWIDTH=5000000,AVERAGE-BANDWIDTH=4000000,RESOLUTION=1920x1080,FRAME-RATE=60.000,CODECS="avc1.64002a,mp4a.40.2"
+http://me.mdmfista.com/play/live.php?mac=00:1A:79:18:15:1D&stream=1745212&extension=m3u8
+
+# --- ULTRA HIGH DEFINITION (UHD) & BEYOND ---
+# 4K (Ultra HD - Membutuhkan Codec HEVC/H.265 atau VP9)
+#EXT-X-STREAM-INF:BANDWIDTH=20000000,AVERAGE-BANDWIDTH=15000000,RESOLUTION=3840x2160,FRAME-RATE=60.000,CODECS="hvc1.1.6.L153.B0,mp4a.40.2"
+http://me.mdmfista.com/play/live.php?mac=00:1A:79:18:15:1D&stream=1745211&extension=m3u8
+
+# 8K (Extreme UHD - Membutuhkan Codec Generasi Baru seperti AV1 atau HEVC Tingkat Tinggi)
+#EXT-X-STREAM-INF:BANDWIDTH=60000000,AVERAGE-BANDWIDTH=45000000,RESOLUTION=7680x4320,FRAME-RATE=60.000,CODECS="av01.0.12M.08,mp4a.40.2"
+http://me.mdmfista.com/play/live.php?mac=00:1A:79:18:15:1D&stream=1745210&extension=m3u8
+
